@@ -74,6 +74,129 @@ int main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Syntax and Errors
+-------------------
+When writing in C, we need to follow a set of rules in order for the code to run properly. These rules are known as syntax.
+
+As we go through each lesson we will learn new syntax on the topics being covered.
+
+Let’s look at the Hello World code to examine common syntax that will exist in most (if not all) of your programs.
+
+#include <stdio.h>
+
+int main() {
+  // output a line
+  printf("Hello World!\n");
+}
+
+* Case Sensitivity
+------------------
+Most of the words in the code use all lowercase letters. This is known as case-sensitivity. Whether lowercase or uppercase, certain words in the code must follow the correct case in order 
+for the code to run. The only lines of text that can change case are the comment and the text between quotes.
+
+* The Semicolon
+---------------
+All statements, like the printf() statement, need to end with a semicolon. This identifies the end of the statement and is needed for the code to run correctly.
+
+* Double Quotes
+---------------
+The text in between the double quotes " is known as a string (think of a string of characters). All strings must be surrounded by double-quotes.
+
+So what happens when we break the rules? The answer is errors. The below text is an error that is output when we leave off the semicolon from the printf() statement in our Hello World code.
+
+script.c: In function ‘main’:
+script.c:6:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+
+The text above gives the following information:
+
+	. The component location, In function ‘main’
+
+	. The line and column number, 6:1
+
+	. A description, expected ‘;’ before ‘}’
+
+As we can see the message does its best to help us solve the errors in our code.
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+Uh oh! Someone broke the Hello World code in script.c. Run the code to view the error in the console.
+
+
+Hint
+Run the code to see the error in the console.
+
+Checkpoint 2 Passed
+2.
+Given the error in the console, can you fix the code in script.c.
+
+
+Hint
+The printf() statement is missing something at the end.
+
+Checkpoint 3 Passed
+3.
+There’s still an error in the console. Given this new error, can you fix the code?
+
+
+Hint
+Something is wrong with the size of one of the letters in int Main() {.
+
+Checkpoint 4 Passed
+4.
+The code should run and output the text as expected.
+
+When writing code, you will always come across errors.
+
+(One more time)
+
+When writing code, you will always come across errors.
+
+Good programmers do not write perfect code the first time, or the second time (or the third time…).
+
+Good programmers are able to understand an error, identify what’s causing it, and correct it within the code.
+
+Run the code one more time and move on to the next exercise.
+
+
+Hint
+Run the code to move on to the next exercise.
+
+script.c
+--------
+
+
+#include <stdio.h>
+
+int main() {
+  // output a line
+  printf("Hello World!\n");
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
