@@ -22,3 +22,63 @@ everywhere!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+* Hello World
+-------------
+So let’s look at our first C program!
+
+#include <stdio.h>
+
+int main() {
+  // output a line
+  printf("Hello World!\n");
+}
+
+When this code is run the following text is displayed in the terminal.
+
+Hello World!
+
+Let’s go through the code line by line to see what is happening. You don’t need to understand everything right away, this is just a first look.
+
+	. #include <stdio.h>: This line is needed to run the line of code that starts with printf.
+
+ 	. int main(){ }: This is the starting point of the code. All the code inside the curly braces {} runs first.
+
+	. // output a line: This is a comment. It is not a line of code but a message we can add to code to tell ourselves or others what the code does. When the code is run this line 
+	will be ignored.
+
+	. printf("Hello World!");: This line of code prints, or outputs, the text “Hello World!” to the console. Printing text to the console is one way for a program to communicate with 
+	the user.
+
+Try running the code and see the output yourself!
+
+* Instructions
+--------------
+Checkpoint 1 Passed
+1.
+The Hello World code located in the workspace in the file script.c.
+
+Run the code to see the text output in the console.
+
+
+Hint
+Run the code in script.c.
+
+script.c
+--------
+#include <stdio.h>
+
+int main() {
+  // output a line
+  printf("Hello World!\n");
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
